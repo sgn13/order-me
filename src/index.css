@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Titillium+Web:wght@300&display=swap');
+:root{
+    --primary-color1:#d1e8e7;
+    --primary-color:#a17a3f;
+    --secondary-color:#c2f0ed;
+    --text-paragraph:#999;
+    --text-white:#fff;
+    --text-black:#000;
+    --text-black-alt:#555;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+ul{
+    list-style: none;
+}

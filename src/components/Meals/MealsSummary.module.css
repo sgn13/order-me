@@ -1,0 +1,15 @@
+.summary{
+    background-color: var(--primary-color1);
+    width: 50%;
+    text-align: center;
+    color: var(--text-black-alt);
+    margin: 0 auto;
+    padding: 3rem;
+    position: relative;
+    border-radius: 1rem;
+    margin-top: -100px;
+}
+.summary h2{
+    margin-bottom: 1rem;
+    color: var(--text-black);
+}
