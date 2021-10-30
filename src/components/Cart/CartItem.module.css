@@ -1,0 +1,32 @@
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.cart-item .amount{
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+.actions button{
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    border-radius: 5px;
+    margin:0 0.1rem ;
+    border: none;
+    padding:0.2rem 0.5rem;
+    cursor: pointer;
+}
+.actions button:hover{
+opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-item .amount{
+        font-size: 0.75rem;
+    }
+}

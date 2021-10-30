@@ -32,7 +32,7 @@ const Cart = (props) => {
             {cartItems}
             <div className={classes.total}>
                 <span>Total Amount</span>
-                <span>{`$ ${cartObject.totalAmount.toFixed(2)}`}</span>
+                <span><b>{`$ ${cartObject.totalAmount.toFixed(2)}`}</b></span>
             </div>
             <div className={classes.actions}>
                 {hasItems && <button className={classes['button--order']}>Order</button>}
